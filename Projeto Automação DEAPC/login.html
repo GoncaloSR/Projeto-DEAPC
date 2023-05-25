@@ -3,18 +3,20 @@
     <head>
         <title>Login</title>
         <style>
+/* pagina principal */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9af10;
     margin: 0;
-    padding: 0;
+    padding: 100px;
   }
-  
+  /* Login */
   h1 {
     text-align: center;
     color: #eeff00;
   }
-  
+
+  /* caixa grande */
   form {
     max-width: 300px;
     margin: 20px auto;
@@ -23,21 +25,22 @@ body {
     border-radius: 5px;
     
   }
-  
+  /* email e senha */
   label {
     font-weight: bold;
     color: #eeff00;
   }
-  
+
+/* caixa email e senha */
   input[type="text"],
   input[type="senha"] {
-    width: 100%;
-    padding: 10px;
+    width: 96%;
+    padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
   }
-  
+  /* caixa mostrar senha e submeter */
   button[type="button"],
   input[type="submit"] {
     width: 100%;
@@ -48,7 +51,8 @@ body {
     border-radius: 0px;
     cursor: pointer;
   }
-  
+
+/* clique aqui */
   a {
     display: block;
     text-align: center;
@@ -57,7 +61,7 @@ body {
     text-decoration: none;
   }
   
-  /* Estilo da caixa de texto  */
+  /* Estilo da caixa de texto */
   button[type="button"],
   input[type="submit"] {
     transition: background-color 0.8s ease;
@@ -71,8 +75,6 @@ body {
     background-color: #878a00;
     border-color: #dddde9
   }
-  
-  
             </style>
     </head>
     <body>
@@ -85,7 +87,7 @@ body {
             <button type="button" id="toggleButton">Mostrar senha</button>
             <input type="submit" value="Submeter">
           </form> 
-          <a href="register.html">Não tem registo? Clique aqui!</a>
+          <a href="register.html">Não tem registo? Registe-se aqui!</a>
           <script src="senha.js"></script>
     </body> 
 </html>
