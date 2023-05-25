@@ -1,0 +1,73 @@
+
+/* pagina principal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9af10;
+    margin: 0;
+    padding: 100px;
+  }
+  /* Login */
+  h1 {
+    text-align: center;
+    color: #eeff00;
+  }
+
+  /* caixa grande */
+  form {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #6e7000;
+    padding: 20px;
+    border-radius: 5px;
+    
+  }
+  /* email e senha */
+  label {
+    font-weight: bold;
+    color: #eeff00;
+  }
+
+/* caixa email e senha */
+  input[type="text"],
+  input[type="senha"] {
+    width: 96%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  /* caixa mostrar senha e submeter */
+  button[type="button"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ad9f00;
+    color: #eeff00;
+    border: 1px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+
+/* clique aqui */
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #eeff00;
+    text-decoration: none;
+  }
+  
+  /* Estilo da caixa de texto */
+  button[type="button"],
+  input[type="submit"] {
+    transition: background-color 0.8s ease;
+    border-style: solid;
+    border-color: #eeff00
+  }
+  
+/* Estilo da animação de rato por cima */
+  button[type="button"]:hover,
+  input[type="submit"]:hover {
+    background-color: #878a00;
+    border-color: #dddde9
+  }
