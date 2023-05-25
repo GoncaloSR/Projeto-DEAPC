@@ -53,15 +53,4 @@ body {
     text-decoration: none;
   }
   
-  /* Estilização adicional */
-  button[type="button"],
-  input[type="submit"] {
-    transition: background-color 0.3s ease;
-  }
-  
-  button[type="button"]:hover,
-  input[type="submit"]:hover {
-    background-color: #555;
-  }
-  
   
