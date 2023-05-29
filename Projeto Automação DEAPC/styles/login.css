@@ -27,6 +27,11 @@ body {
     color: #f9af10;
   }
 
+  #mostrarsenha{
+    font-weight: bold;
+    color: #10f94a;
+  }
+
 /* caixa email e senha */
   input[type="text"],
   input[type="senha"] {
@@ -36,7 +41,7 @@ body {
     border: 1px solid #fdfcfc;
     border-radius: 4px;
   }
-
+/*edit caixa de texto ação de ocultar senha */
   #senha{
     width: 96%;
     padding: 5px;
