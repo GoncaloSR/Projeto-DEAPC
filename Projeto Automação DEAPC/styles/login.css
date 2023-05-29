@@ -8,6 +8,7 @@ body {
   /* Login */
   h1 {
     text-align: center;
+    text-shadow: 2px 2px yellow;
     color: #050505;
   }
 
@@ -16,8 +17,8 @@ body {
     max-width: 300px;
     margin: 20px auto;
     background-color: #050505;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 30px;
+    border-radius: 15px 50px 30px
     
   }
   /* email e senha */
