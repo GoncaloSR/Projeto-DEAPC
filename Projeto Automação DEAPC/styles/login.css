@@ -36,6 +36,15 @@ body {
     border: 1px solid #fdfcfc;
     border-radius: 4px;
   }
+
+  #senha{
+    width: 96%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #fdfcfc;
+    border-radius: 4px;
+  }
+
   /* caixa mostrar senha e submeter */
   button[type="button"],
   input[type="submit"] {
