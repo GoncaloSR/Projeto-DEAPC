@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
 }
-.background{
+.fundo{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75)),url("https://github.com/GoncaloSR/Projeto-DEAPC/blob/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/back.png");
+    background-image: url("https://raw.githubusercontent.com/GoncaloSR/Projeto-DEAPC/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/back.png"), linear-gradient(rgba(0,0,0,0.75));
     /* não está a aparecer no background*/
     background-size: cover;
     background-position: center;
@@ -27,4 +27,31 @@
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: goldenrod;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
 }
