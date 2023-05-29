@@ -1,39 +1,57 @@
-body {
+*{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-header {
-    background-color: #000000;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+.fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://raw.githubusercontent.com/GoncaloSR/Projeto-DEAPC/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/back.png"), linear-gradient(rgba(0,0,0,0.75));
+    /* não está a aparecer no background*/
+    background-size: cover;
+    background-position: center;
 }
-
-nav {
-    background-color:goldenrod;
-    padding: 10px;
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.logo{
+    width: 120px;
+    cursor: pointer;
 }
-
-nav ul li {
+.navbar ul li{
+    list-style: none;
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
+    position: relative;
 }
-
-section {
-    padding: 80px;
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
-
-footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 10px;
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: goldenrod;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
+    color: white;
 }
