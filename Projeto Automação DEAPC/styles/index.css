@@ -9,7 +9,7 @@
     background-image:url("https://raw.githubusercontent.com/GoncaloSR/Projeto-DEAPC/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/back.png");
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
+    opacity:1;
 } /*background*/
 .navbar{
     width: 85%;
@@ -31,7 +31,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: goldenrod;
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -53,12 +53,12 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: white;
+    color:goldenrod;
 }
 .content h1{
     font-size: 70px;
     font-weight: 100;
-    line-height: 25px;
+    line-height: 65px;
 }
 
 button{
@@ -76,7 +76,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: #daa520;
+    background: black;
     height: 100%;
     width: 100%;
     border-radius: 25px;
