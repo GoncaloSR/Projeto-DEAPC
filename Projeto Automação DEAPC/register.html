@@ -2,7 +2,29 @@
 <html>
 <head>
     <title>Página de Registro</title>
-    <link rel="stylesheet" type="text/css" href="C:\Users\user\Documents\GitHub\PROJDEAPC\Projeto-DEAPC\Projeto Automação DEAPC\styles\register.css">
+    <link rel="stylesheet" type="text/css" href="styles/register.css">
+</head>
+<head>
+    <title>Página de Registro</title>
+    <script>
+        function registrar() {
+            // Obter os valores dos campos do formulário
+            var nome = document.getElementById('nome').value;
+            var email = document.getElementById('email').value;
+            var senha = document.getElementById('senha').value;
+
+            // Validar os campos do formulário
+            if (nome === '' || email === '' || senha === '') {
+                alert('Por favor, preencha todos os campos.');
+                return;
+            }
+
+            // Enviar os dados para o arquivo de processamento do registro
+            // Substitua "processar_registro.php" pelo nome do seu arquivo de processamento
+            document.forms[0].action = 'processar_registro.php';
+            document.forms[0].submit();
+        }
+    </script>
 </head>
 <body>
     <h1>Registro</h1>
@@ -17,8 +39,8 @@
         <input type="password" id="senha" name="senha" required><br>
         <span id="password-strength"></span>
 
-        <input type="submit" value="Registrar">
-    </form>
+        <button type="button" onclick="registrar()">Registrar</button>
+    
     <a href="login.html">Ja tem Login? Clique aqui!</a>
     <script src="C:\Users\user\Documents\GitHub\PROJDEAPC\Projeto-DEAPC\Projeto Automação DEAPC\scripts\register.js"></script>
 </body>
