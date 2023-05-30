@@ -27,11 +27,6 @@ body {
     color: #f9af10;
   }
 
-  #mostrarsenha{
-    font-weight: bold;
-    color: #10f94a;
-  }
-
 /* caixa email e senha */
   input[type="text"],
   input[type="senha"] {
