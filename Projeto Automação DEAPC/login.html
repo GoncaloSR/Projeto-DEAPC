@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="scripts/login.js"></script>
         <title>Login</title>
         <link rel="stylesheet" href="C:\Users\user\Documents\GitHub\PROJDEAPC\Projeto-DEAPC\Projeto Automação DEAPC\styles\login.css">
         
@@ -20,17 +21,13 @@
           <a href="register.html">Não tem registo? Registe-se aqui!</a>
           
           <script> 
-          const mostrarSenhaCheckbox = document.getElementById('mostrarSenha');
-          const senhaInput = document.getElementById('senha');
-
-          mostrarSenhaCheckbox.addEventListener('change', function() {
+          function (){
           if (mostrarSenhaCheckbox.checked) {
-    senhaInput.type = 'text';
-  } else {
-    senhaInput.type = 'password';
-  }
-}); 
-
+            senhaInput.type = 'text';
+          } else {
+            senhaInput.type = 'senha';
+          } 
+        }
           </script>
         
         </body> 
