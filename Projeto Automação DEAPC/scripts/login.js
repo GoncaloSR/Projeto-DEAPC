@@ -8,3 +8,4 @@ mostrarSenhaCheckbox.addEventListener('change', function() {
     senhaInput.type = 'password';
   }
 });
+
