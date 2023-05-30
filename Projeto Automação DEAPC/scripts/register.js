@@ -16,6 +16,13 @@ function checkPasswordStrength(password) {
   if (/[a-zA-Z]/.test(password) && /[0-9]/.test(password) && /[^a-zA-Z0-9]/.test(password)) {
     return 'Forte';
   }
-  
+  if (/[a-zA-Z]/.test(password)) {
   return 'Média';
+  }
+  if (/[0-9]/.test(password)) {
+    return 'Média';
+  }
+  if (password.length > 8) {
+    return 'Media';
+  }
 }
