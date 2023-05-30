@@ -19,7 +19,15 @@
           </form> 
           <a href="register.html">Não tem registo? Registe-se aqui!</a>
           
-          <script> src="login.js" </script>
+          <script> 
+          function (){
+          if (mostrarSenhaCheckbox.checked) {
+            senhaInput.type = 'text';
+          } else {
+            senhaInput.type = 'senha';
+          } 
+        }
+          </script>
         
         </body> 
 </html>
