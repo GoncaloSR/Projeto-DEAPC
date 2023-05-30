@@ -7,5 +7,5 @@ mostrarSenhaCheckbox.addEventListener('change', function() {
   } else {
     senhaInput.type = 'password';
   }
-});
+}); 
 
