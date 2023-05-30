@@ -1,7 +1,7 @@
 /* pagina principal */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9af10;
+    background-image: url('test1.jpg');
     margin: 0;
     padding: 100px;
   }
@@ -11,6 +11,19 @@ body {
     text-shadow: 2px 2px yellow;
     color: #050505;
   }
+
+body{
+  
+}
+
+  .fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://github.com/GoncaloSR/Projeto-DEAPC/blob/main/Projeto%20Automação%20DEAPC/images/test1.jpg"), linear-gradient(rgba(0,0,0,0.75));
+    /* não está a aparecer no background*/
+    background-size: cover;
+    background-position: center;
+}
 
   /* caixa grande */
   form {
@@ -27,17 +40,18 @@ body {
     color: #f9af10;
   }
 
-/* caixa email e senha */
-  input[type="text"],
-  input[type="senha"] {
+  /*edit caixa de texto ação de ocultar senha */
+  #senha{
     width: 96%;
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #fdfcfc;
     border-radius: 4px;
   }
-/*edit caixa de texto ação de ocultar senha */
-  #senha{
+
+/* caixa email e senha */
+  input[type="text"],
+  input[type="senha"] {
     width: 96%;
     padding: 5px;
     margin-bottom: 10px;
