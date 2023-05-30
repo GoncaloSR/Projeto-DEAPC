@@ -1,38 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login</title>
-        <link rel="stylesheet" href="C:\Users\user\Documents\GitHub\PROJDEAPC\Projeto-DEAPC\Projeto Automação DEAPC\styles\login.css">
-        
-    </head>
-    <body>
-        <h1>LOGIN</h1>
-        <img src="images/test1.jpg" class="fundo">
-        <form action="">
-            <label for="nome">Email:</label><br>
-            <input type="text" id="nome" name="nome" value="exemple@megachips.pt"><br>
-            <label for="senha">Senha:</label><br>
-            <input type="senha" id="senha" name="senha" value="senha"><br><br>
-            <label for="ocultarSenha">Ocultar Senha</label>
-            <input type="checkbox" id="ocultarSenha">
-            <input type="submit" value="Submeter">
-          </form> 
-          <a href="register.html">Não tem registo? Registe-se aqui!</a>
-          
-          <script> 
-         const ocultarSenhaCheckbox = document.getElementById('ocultarSenha');
-         const senhaInput = document.getElementById('senha');
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/login.css">
+  </head>
+  <body>
+    <h1>LOGIN</h1>
+    <img src="images/test1.jpg" class="fundo">
+    <form action="">
+      <label for="nome">Email:</label><br>
+      <input type="text" id="nome" name="nome" value="exemple@megachips.pt"><br>
+      <label for="senha">Senha:</label><br>
+      <input type="password" id="senha" name="senha" value="senha"><br><br>
+      <label for="mostrarSenha">Mostrar Senha</label>
+      <input type="checkbox" id="mostrarSenha">
+      <input type="submit" value="Submeter">
+    </form> 
+    <a href="register.html">Não tem registo? Registe-se aqui!</a>
 
-         ocultarSenhaCheckbox.addEventListener('change', function() {
-            if (ocultarSenhaCheckbox.checked) {
-                senhaInput.type = 'password';
-                
-            } else {
-                senhaInput.type = 'text';
-                }
-            }); 
-
-          </script>
-        
-        </body> 
+    <script src="scripts/login.js"></script>
+  </body> 
 </html>
