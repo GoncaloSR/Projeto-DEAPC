@@ -11,6 +11,16 @@
     background-position: center;
     opacity:1;
 } /*background*/
+
+.fundo_nav{
+    width: 85%;
+    height: 35vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .navbar{
     width: 85%;
     margin: auto;
