@@ -1,17 +1,17 @@
 /* Estilos da página principal */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-  .fundo{
-    width: 100%;
-    height: 100vh;
-    background-image: url("https://github.com/GoncaloSR/Projeto-DEAPC/blob/main/Projeto%20Automação%20DEAPC/images/test1.jpg"), linear-gradient(rgba(0,0,0,0.75));
-    background-size: cover;
-    background-position: center;
-}
+<<<<<<< HEAD
+    font-family: Arial, sans-serif;
+    background-image: url('test1.jpg');
+    margin: 0;
+    padding: 100px;
+  }
+  /* Login */
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px yellow;
+    color: #050505;
+  }
 
   /* caixa grande */
   form {
@@ -27,6 +27,45 @@ body {
     font-weight: bold;
     color: #f9af10;
   }
+=======
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fundo {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://raw.githubusercontent.com/GoncaloSR/Projeto-DEAPC/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/test1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+>>>>>>> 139a3aa250f3038b50a946774782ab857ec8f200
+
+/* Estilo do formulário de login */
+.form {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #050505;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* Estilos para o texto de login */
+h1 {
+  text-align: center;
+  /*text-shadow: 2px 2px white;*/
+  color: goldenrod;
+}
+
+/* Estilos para as etiquetas (labels) */
+label {
+  font-weight: bold;
+  color: goldenrod;
+}
 
 /* Estilos para os campos de texto */
 input[type="text"],
