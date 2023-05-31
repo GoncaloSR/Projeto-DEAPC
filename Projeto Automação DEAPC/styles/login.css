@@ -74,6 +74,7 @@ body {
     margin-top: 10px;
     color: #fffefa;
     text-decoration: none;
+    text-shadow: 2px 2px rgb(9, 9, 1);
   }
   
   /* Estilo da caixa de texto */
