@@ -48,7 +48,7 @@ function registrar() {
 
   // Enviar os dados para o arquivo de processamento do registro
   // Esta parte precisa de .php
-  document.forms[0].action = 'xxxx.php';
+  document.forms[0].action = 'processar_registro.php';
   document.forms[0].submit();
 }
 
