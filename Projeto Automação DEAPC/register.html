@@ -28,26 +28,27 @@
 <html>
 <head>
     <title>Página de Registro</title>
-    <link rel="stylesheet" type="text/css" href="styles/register.css">
+    <link rel="stylesheet" href="styles/register.css">
 </head>
 <body>
-    <h1>Registro</h1>
-    <form action="processar_registro.php" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required><br>
+    <div class="fundo">
+        <div class="form">
+            <h1>Registro</h1>
+            <form action="processar_registro.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
 
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" required><br>
-        <span id="password-strength"></span>
-
-        <button type="button" onclick="registrar()">Registrar</button>
-    </form>
-    
-    <a href="login.html">Já tem Login? Clique aqui!</a>
-    
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required><br>
+                <span id="password-strength"></span>
+                <button type="button" onclick="registrar()">Registrar</button>
+            </form>
+            <a href="login.html">Já tem Login? Clique aqui!</a>
+        </div>
+    </div>
     <script src="scripts/register.js"></script>
 </body>
 </html>

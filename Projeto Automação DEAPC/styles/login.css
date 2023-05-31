@@ -35,7 +35,7 @@ h1 {
 /* Estilos para as etiquetas (labels) */
 label {
   font-weight: bold;
-  color: #f9af10;
+  color: goldenrod;
 }
 
 /* Estilos para os campos de texto */
@@ -52,8 +52,8 @@ input[type="password"] {
 input[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #f9af10;
-  color: #000000;
+  background-color: goldenrod;
+  color:black;
   border: 1px;
   border-radius: 0px;
   cursor: pointer;
@@ -61,7 +61,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #c7a600;
+  background-color: goldenrod;
 }
 
 /* Estilos para o link "Clique aqui" */
