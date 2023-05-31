@@ -11,6 +11,16 @@
     background-position: center;
     opacity:1;
 } /*background*/
+
+.fundo_nav{
+    width: 85%;
+    height: 35vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .navbar{
     width: 85%;
     margin: auto;
@@ -72,7 +82,7 @@ button{
     font-weight: bold;
     border: 2px solid #daa520;
     background: transparent;
-    color: #fff;
+    color: goldenrod;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -89,7 +99,7 @@ span{
     transition: 0.5s;
 }
 button:hover span{
-    width: 90%;
+    width: 95%;
 }
 button:hover{
     border: none

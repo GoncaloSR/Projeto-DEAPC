@@ -1,16 +1,17 @@
-/* pagina principal */
+/* Estilos da página principal */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('test1.jpg');
-    margin: 0;
-    padding: 100px;
-  }
-  /* Login */
-  h1 {
-    text-align: center;
-    text-shadow: 2px 2px yellow;
-    color: #050505;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+  .fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://github.com/GoncaloSR/Projeto-DEAPC/blob/main/Projeto%20Automação%20DEAPC/images/test1.jpg"), linear-gradient(rgba(0,0,0,0.75));
+    background-size: cover;
+    background-position: center;
+}
 
   /* caixa grande */
   form {
@@ -27,59 +28,37 @@ body {
     color: #f9af10;
   }
 
-  /*edit caixa de texto ação de ocultar senha */
-  #senha{
-    width: 96%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #fdfcfc;
-    border-radius: 4px;
-  }
+/* Estilos para os campos de texto */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #fdfcfc;
+  border-radius: 4px;
+}
 
-/* caixa email e senha */
-  input[type="text"],
-  input[type="senha"] {
-    width: 96%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #fdfcfc;
-    border-radius: 4px;
-  }
+/* Estilos para o botão de submeter */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: goldenrod;
+  color:black;
+  border: 1px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
 
-  /* caixa mostrar senha e submeter */
-  button[type="button"],
-  input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #f9af10;
-    color: #000000;
-    border: 1px;
-    border-radius: 0px;
-    cursor: pointer;
-  }
+input[type="submit"]:hover {
+  background-color: goldenrod;
+}
 
-/* clique aqui */
-  a {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    color: #fffefa;
-    text-decoration: none;
-  }
-  
-  /* Estilo da caixa de texto */
-  button[type="button"],
-  input[type="submit"] {
-    transition: background-color 0.8s ease;
-    border-style: solid;
-    border-color: #0d0c0c
-  }
-  
-/* Estilo da animação de rato por cima */
-  button[type="button"]:hover,
-  input[type="submit"]:hover {
-    background-color: #c7a600;
-    border-color: #dddde9
-  }
-  
-  
+/* Estilos para o link "Clique aqui" */
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #fffefa;
+  text-decoration: none;
+}
