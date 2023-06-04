@@ -10,6 +10,7 @@ mostrarSenhaCheckbox.addEventListener('change', function() {
 }); 
 
 
+
 /*
 document.getElementById("loginForm").addEventListener("submit", function(event) {
   var username = document.getElementsByName("username")[0].value;
