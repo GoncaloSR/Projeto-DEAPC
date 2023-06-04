@@ -2,11 +2,11 @@
 // Verifica se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtém os valores da BD
-    $username = $_POST["username"];
-    $password = $_POST["password"];
+    $nome = $_POST["nome"];
+    $senha = $_POST["senha"];
 
     // Verifica credenciais
-    if ($username === "usuario" && $password === "senha") {
+    if ($username === "nome" && $password === "senha") {
         echo "Login realizado com sucesso!";
     } else {
         echo "Usuário ou senha incorretos!";
