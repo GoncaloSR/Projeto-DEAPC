@@ -13,7 +13,7 @@ $result = $db->query($sql);
 
 echo "<table>\n<th>Id</th><th>Email</th><th>Senha</th>\n";
 while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-    echo "<tr><td>" . $row['id'] . "</td><td>" . $row['email'] . "</td><td>" . $row['senha'] . "</td></tr>\n";
+  echo "<tr><td>" . $row['id'] . "</td><td>" . $row['email'] . "</td><td>" . $row['senha'] . "</td></tr>\n";
 }
 echo "</table>";
 
