@@ -9,17 +9,3 @@ mostrarSenhaCheckbox.addEventListener('change', function() {
   }
 }); 
 
-
-function login() {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
-
-  // Verifique as credenciais
-  if (username === "usuario" && password === "senha") {
-      // Login bem-sucedido
-      alert("Login realizado com sucesso!");
-  } else {
-      // Login falhou
-      alert("Usuário ou senha incorretos!");
-  }
-}
