@@ -130,7 +130,7 @@
     margin: auto ;
   }
   
-  .image {
+.image {
     opacity: 1;
     display: block;
     width: 400px;
@@ -161,29 +161,12 @@
   }
   
   .text {
-    
     background-color: #a6ff0052;
     color: rgb(4, 4, 4);
     font-size: 16px;
     padding: 16px;
   }
 
-  .rodape {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-}
 
-.patrocinios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
 
-.patrocinios img {
-    width: 100px;
-    margin: 10px;
-}
-  
+
