@@ -167,6 +167,29 @@
     padding: 16px;
   }
 
+  footer{
+    background-color: tomato;
+      justify-content: center;
+      align-items: center;
+      height: 12vh;
+      position: absolute;
+      
+   }
+  
+  .patrocinios {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+  
+   }
+  
+  .patrocinios img {
+      width: 100px;
+      margin: 10px;
+   }
+    
 
 
 
