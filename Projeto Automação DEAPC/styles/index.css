@@ -6,7 +6,7 @@
 .fundo{
     width: 100%;
     height: 100vh;
-    background-image:url("https://raw.githubusercontent.com/GoncaloSR/Projeto-DEAPC/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/back.png");
+    background-image: url(https://raw.githubusercontent.com/GoncaloSR/Projeto-DEAPC/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/automatation.png);
     background-size: cover;
     background-position: center;
     opacity:1;
