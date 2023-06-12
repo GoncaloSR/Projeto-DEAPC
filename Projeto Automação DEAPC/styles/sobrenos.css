@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://raw.githubusercontent.com/GoncaloSR/Projeto-DEAPC/main/Projeto%20Automa%C3%A7%C3%A3o%20DEAPC/images/test1.jpg);
+    color: white;
+  }
+  
+  header {
+    background-color: #d2af5b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: black;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: #d2af5b;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
