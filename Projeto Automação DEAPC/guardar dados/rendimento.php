@@ -15,6 +15,7 @@ $listaErros = [
 ]
 
 // Retornar os dados como JSON
+
 echo json_encode($listaRendimento);
 echo json_encode($listaErros);
 ?>
