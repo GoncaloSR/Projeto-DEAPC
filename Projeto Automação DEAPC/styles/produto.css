@@ -144,6 +144,11 @@ button[type="bt4"]{
   transition: background-color 0.8s ease;
 }
 
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+}
+
 .caixa-texto {
       position: absolute;
       top: 430px; 
