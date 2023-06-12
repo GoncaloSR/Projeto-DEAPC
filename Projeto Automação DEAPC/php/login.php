@@ -3,15 +3,15 @@
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-if (($username == "usuario1" && $password == "senha1")) {
+if (($username == "engenheiro@megachips.pt" && $password == "eng2023")) {
     $_SESSION["username"] = $username;
     header("Location: pagina1.php");
     exit();
-} elseif (($username == "usuario2" && $password == "senha2")) {
+} elseif (($username == "diretor@megachips.pt" && $password == "dir2023")) {
     $_SESSION["username"] = $username;
     header("Location: pagina2.php");
     exit();
-} elseif (($username == "usuario3" && $password == "senha3")) {
+} elseif (($username == "operador@megachips.pt" && $password == "ope2023")) {
     $_SESSION["username"] = $username;
     header("Location: pagina3.php");
     exit();
