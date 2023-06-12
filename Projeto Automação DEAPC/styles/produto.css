@@ -100,6 +100,50 @@
     background-color: aquamarine;
   }
 
+button[type="bt1"]{
+  width: 10%;
+  padding: 10px;
+  background-color:  #ffcccc;
+  color: black;
+  border: 1px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
+button[type="bt2"]{
+  width: 10%;
+  padding: 10px;
+  background-color: #ccffff;
+  color: black;
+  border: 1px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
+button[type="bt3"]{
+  width: 10%;
+  padding: 10px;
+  background-color: #ffffcc;
+  color: black;
+  border: 1px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
+button[type="bt4"]{
+  width: 10%;
+  padding: 10px;
+  background-color: #ccffcc;
+  color: black;
+  border: 1px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
 .caixa-texto {
       position: absolute;
       top: 430px; 
