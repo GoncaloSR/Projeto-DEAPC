@@ -217,26 +217,29 @@ button[type="bt4"]{
   }
 
   footer{
-    background-color: tomato;
+    background-color: rgb(250, 154, 0);
       justify-content: center;
       align-items: center;
       height: 8vh;
       position: absolute;
+      text-align: center;
       
    }
   
   .patrocinios {
+    text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       margin-top: 20px;
-  
+
    }
   
   .patrocinios img {
-      width: 100px;
-      margin: 10px;
+      width: 75px;
+      margin: 30px;
+     
    }
     
 
