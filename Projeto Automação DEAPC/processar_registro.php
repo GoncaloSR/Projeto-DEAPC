@@ -4,7 +4,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-echo $nome . $email . $senha;
+//echo $nome . $email . $senha;
 
 // Conectar ao banco de dados SQLite
 $db = new SQLite3('entrada.db');
