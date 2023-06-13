@@ -1,33 +1,41 @@
 <?php
-// Conexão com o banco de dados
-$db = new SQLite3('entrada.db');
 
-// Verifica se o formulário foi enviado
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Obtém os valores do formulário
-    $nome = $_POST["nome"];
-    $senha = $_POST["senha"];
+$db = "projetodeapc";
+$username = $_POST["username"];
+$password = $_POST["password"];
 
-    // Verifica as credenciais no banco de dados
-    $query = "SELECT * FROM Entradas WHERE email = :nome AND senha = :senha";
-    $stmt = $db->prepare($query);
-    $stmt->bindValue(':nome', $nome);
-    $stmt->bindValue(':senha', $senha);
-    $result = $stmt->execute();
+$con = mysqli_connect("localhost", "root", "", $db);
 
-    // Verifica se as credenciais são válidas
-    if ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-        // Credenciais válidas, redireciona para outra página
-        header("Location: produto.html");
-        exit;
-    } else {
-        // Credenciais inválidas, redireciona de volta para a página de login com uma mensagem de erro
-        header("Location: login.html?erro=1");
-        exit;
-    }
+if (!$con) {
+    die("Falha na conexão: " . mysqli_connect_error());
 }
 
-// Fecha a conexão com o banco de dados
-$db->close();
-?>
+$sql = "SELECT * FROM utilizadores WHERE Nome='$username' AND Password='$password'";
 
+$utilizador = mysqli_query($con, $sql);
+
+$row = mysqli_fetch_assoc($utilizador);
+if ($row) {
+    $role = $row["Role"];
+
+    if ($role == "informatico") {
+        header("Location: ../Informatico.html");
+        exit;
+    }
+
+    if ($role == "supervisor") {
+        header("Location: ../Superiores.html");
+        exit;
+    }
+
+    if ($role == "engenheiro") {
+        header("Location: ../engenheiros.html");
+        exit;
+    }
+} else {
+    header("Location: ../LoginPage.html");
+    exit;
+}
+
+mysqli_close($con);
+?>
