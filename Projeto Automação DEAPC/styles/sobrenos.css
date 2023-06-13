@@ -15,6 +15,7 @@ body {
   padding-top: 7px;
   padding-left: 7px;
   padding-right: 7px;
+  padding-bottom: 25px;
   
 }
   
@@ -39,12 +40,27 @@ body {
   p {
     line-height: 1.5;
   }
+
+  a {
+    background-color: #947f4f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: static;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    background-color: #9f7c30;
+    color: #fff;
+  }
   
   footer {
     background-color: #d2af5b;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     height: 10px;
