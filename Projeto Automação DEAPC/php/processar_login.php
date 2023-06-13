@@ -18,22 +18,22 @@ $row = mysqli_fetch_assoc($utilizador);
 if ($row) {
     $role = $row["Role"];
 
-    if ($role == "informatico") {
-        header("Location: ../Informatico.html");
-        exit;
-    }
-
-    if ($role == "supervisor") {
-        header("Location: ../Superiores.html");
+    if ($role == "diretor") {
+        header("Location: ../produto.html");
         exit;
     }
 
     if ($role == "engenheiro") {
-        header("Location: ../engenheiros.html");
+        header("Location: ../engenheiro.html");
+        exit;
+    }
+
+    if ($role == "operario") {
+        header("Location: ../operario.html");
         exit;
     }
 } else {
-    header("Location: ../LoginPage.html");
+    header("Location: ../login.html");
     exit;
 }
 
