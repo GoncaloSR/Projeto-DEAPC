@@ -7,7 +7,7 @@
  $db->exec("INSERT INTO Viaturas(marca, preco) VALUES('Toyota', 35445)");
  $db->exec("INSERT INTO Viaturas(marca, preco) VALUES('Cupra', 29090)");
  echo "<h3>Tabela de Viaturas </h3>";
- $sql = "select * Viaturas ;";
+ $sql = "select * from Viaturas ";
  $result = $db->query($sql);
 
  echo "<table>\n<th> Id </th><th> Marca </th><th> Preço </th>\n";
