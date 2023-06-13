@@ -4,6 +4,8 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
+echo $nome . $email . $senha;
+/*
 // Conectar ao banco de dados SQLite
 $db = new SQLite3('entrada.db');
 
@@ -48,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 // Fechar a conexão com o banco de dados
-$db->close();
+$db->close();*/
 ?>
 
 
