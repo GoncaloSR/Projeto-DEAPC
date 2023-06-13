@@ -7,6 +7,7 @@ $db->exec("INSERT INTO Entradas(email, senha) VALUES('diretor@megachips.pt', 'Di
 $db->exec("INSERT INTO Entradas(email, senha) VALUES('engenharia@megachips.pt', 'Eng2023')");
 $db->exec("INSERT INTO Entradas(email, senha) VALUES('operador@megachips.pt', 'Ope2023')");
 
+//imprime a tabela
 echo "<h3>Tabela de Entradas</h3>";
 $sql = "SELECT * FROM Entradas";
 $result = $db->query($sql);
